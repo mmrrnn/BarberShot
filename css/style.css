@@ -143,6 +143,10 @@ div#license a {
     .price-header {
         font-size: 1.4rem;
     }
+
+    div#about-main-photo {
+        background-attachment: scroll;
+    }
 }
 
 /* ************************************* ABOUT ************************************* */
