@@ -156,7 +156,7 @@ div.about-article {
     line-height: 2rem;
 }
 
-button#button-about {
+a#button-about {
     padding: 0.8rem 3rem;
     font-size: 1.2rem;
     color: #BF8C5A;
@@ -165,13 +165,14 @@ button#button-about {
     border: 1px solid #BF8C5A;
 }
 
-button#button-about:hover {
+a#button-about:hover {
     padding: 0.8rem 3rem;
     font-size: 1.2rem;
     color: rgb(54, 15, 0);
     letter-spacing: 0.08rem;
     background-color: rgba(191, 140, 90, 0.1);
     border: 1px solid rgb(54, 15, 0);
+    text-decoration: none;
 }
 
 div#about-main-photo {
