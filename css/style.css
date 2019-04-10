@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+/* #212529 #3D0C11 */
+
+* {
+    font-family: 'Dosis';
+}
+
+.margin-top {
+    margin-top: 5rem;
+}
+
+.main-header {
+    letter-spacing: 0.1rem;
+    color: rgb(54, 15, 0);
+}
+
+/* ----- NAVBAR ----- */
+
+nav.navbar {
+    transition: 0.5s;
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+nav.navbar-light {
+    background-color: #fdfdfd;
+    box-shadow: 1px 1px 2px #ccc;
+}
+
+a.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-family: 'Poppins';
+}
+
+a.nav-link {
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+}
+
+/* ----- CAROUSEL ----- */
+
+div.carousel-item h2.display-4 {
+    letter-spacing: 0.1rem;
+}
+
+div.carousel-item p.lead {
+    letter-spacing: 0.1rem;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* ----- DOUBLE CONTAINER ----- */
+
+div#double-container-first {
+    border-left: 1px solid #BF8C5A;
+}
+
+p#double-container-text {
+    line-height: 2rem;
+    letter-spacing: 0.08rem;
+}
+
+
+/* ----- JUMBOTRON ----- */
+
+div.jumbotron {
+    margin-bottom: 0;
+}
+
+img.barber-icon {
+    height: 5rem;
+}
+
+span.price-info {
+    color: #BF8C5A;
+}
+
+/* ----- FOOTER ----- */
+
+footer {
+    background-color: #212529;
+    color: #fff;
+}
+
+h3.footer-header {
+    color: #BF8C5A;
+    letter-spacing: 0.08rem;
+}
+
+.footer-list-item {
+    color: #fff;
+    letter-spacing: 0.05rem;
+}
+
+.footer-logo {
+    color: #BF8C5A;
+}
+
+div#license {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+}
+
+div#license a {
+    color: #fff;
+}
+
+@media (max-width: 767.98px) { 
+    span#double-container-header {
+        font-size: 3.2rem;
+    }
+
+    div#double-container-first {
+        border-left: none;
+    }
+    
+    div#double-container-second {
+        margin-top: 1rem;
+    }
+
+    div.jumbotron-sm-row {
+        margin-top: 5rem;
+    }
+
+    .main-header {
+        font-size: 4rem;
+    }
+}
+
+/* ************************************* ABOUT ************************************* */
+
+div.about-article {
+    letter-spacing: 0.08rem;
+    line-height: 2rem;
+}
+
+button#button-about {
+    padding: 0.8rem 3rem;
+    font-size: 1.2rem;
+    color: #BF8C5A;
+    letter-spacing: 0.08rem;
+    background-color: #fff;
+    border: 1px solid #BF8C5A;
+}
+
+button#button-about:hover {
+    padding: 0.8rem 3rem;
+    font-size: 1.2rem;
+    color: rgb(54, 15, 0);
+    letter-spacing: 0.08rem;
+    background-color: rgba(191, 140, 90, 0.1);
+    border: 1px solid rgb(54, 15, 0);
+}
+
+div#about-main-photo {
+    height: 90vh;
+    background-image: url('../img/about/1.jpg');
+    background-attachment: fixed;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ************************************* GALERIA ************************************* */
+
+div.photo{
+    overflow: hidden;
+}
+div.photo img {
+    transition-duration: 1s;
+    display: block;
+}
+
+div.photo img:hover {
+    opacity: 0.7;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    cursor: url("../img/gallery/search-solid.svg"), auto;
+}
+
+div.about-photo {
+    height: 50%;
+}
+
+/* ************************************* CONTACT ************************************* */
+
+div#container-contact {
+    margin-top: 62px;
+}
+
+h2#header-contact {
+    color: rgb(54, 15, 0);
+}
+
+.icon-contact {
+    font-size: 2.5rem;
+    color: #212529;
+}
+
+.text-contact {
+    font-size: 1.4rem;
+    color: #212529;
+    letter-spacing: 0.08rem;
+}
+
+div#map {
+    height: 90vh;
+}
+
+.info-logo {
+    font-size: 3.5rem;
+    cursor: pointer;
+}
+
+#fb {
+    color: #29487D;
+}
+
+#ig {
+    color: #DD2a7B;
+}

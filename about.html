@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="authors" content="Marcin Papież">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- CSS & JS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS, then Scroll Reveal -->
+  <script src="jquery/jquery-3.3.1.slim.js"></script>
+  <script src="bootstrap-4.3.1/js/bootstrap.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+      integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+      crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <title>Barber Shot - O nas</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Barber Shot</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link mr-3" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link mr-3" href="about.html">O NAS
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-3" href="gallery.html">GALERIA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-3" href="contact.html">KONTAKT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="display-4 text-center mt-5 main-header">KIM JESTEŚMY?</h1>
+      </div>
+      <div class="col-12 lead mt-5 about-article">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque in quam accusamus nesciunt quis consequuntur unde recusandae eos hic cum delectus architecto, odio minima ea sapiente soluta harum voluptates est laboriosam maxime pariatur quod eligendi? Accusamus culpa esse voluptate minima quae, eius amet perspiciatis, laborum harum error consequuntur veritatis temporibus.
+      </div>
+      <div class="col-12 d-flex justify-content-center">
+        <button class="mt-5" id="button-about" onclick="location.href='gallery.html'">ZOBACZ GALERIĘ</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-5">
+    <div class="row">
+      <div class="col-12" id="about-main-photo"></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 main-header">
+        <h1 class="display-4 text-center mt-5">CO U NAS ZNAJDZIESZ?</h1>
+      </div>
+      <div class="col-12 lead mt-5 about-article">
+        Oprócz usług fryzjerskich oferujemy także wysokiej jakości kosmetyki i akcesoria do pielęgnacji włosów i
+        zarostu. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem assumenda, qui esse cumque totam nulla
+        maxime tempora eaque numquam repellat fuga ad nemo sapiente nam recusandae adipisci optio reprehenderit quam at
+        impedit porro natus sunt. Earum quam nemo tempore error.
+      </div>
+    </div>
+
+    <div class="row mt-5 mb-5">
+      <div class="col-12 col-md-4 photo">
+        <img src="img/1.jpg" class="img-thumbnail img-fluid" data-toggle="modal" data-target="#modalPhoto-1" alt="1">
+      </div>
+      <div class="col-12 col-md-4 photo">
+        <img src="img/2.jpg" class="img-thumbnail img-fluid" data-toggle="modal" data-target="#modalPhoto-2" alt="2">
+      </div>
+      <div class="col12 col-md-4 photo">
+        <img src="img/3.jpg" class="img-thumbnail img-fluid" data-toggle="modal" data-target="#modalPhoto-3" alt="3">
+      </div>
+    </div>
+
+    <div class="modal" id="modalPhoto-1" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="img/1.jpg" alt="1" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="modalPhoto-2" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="img/2.jpg" alt="2" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="modalPhoto-3" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="img/3.jpg" alt="3" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="mt-5 pb-4">
+    <div class="container">
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-sm-6 col-md-3 text-center text-sm-left">
+          <h3 class="footer-header mt-5">INFORMACJE</h3>
+          <ul class="pl-2">
+            <li class="list-unstyled lead mt-4">
+              <a href="about.html" class="footer-list-item">O nas</a>
+            </li>
+            <li class="list-unstyled lead mt-3">
+              <a href="gallery.html" class="footer-list-item">Galeria</a>
+            </li>
+            <li class="list-unstyled lead mt-3">
+              <a href="contact.html" class="footer-list-item">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 text-center text-sm-left">
+          <h3 class="footer-header mt-5">GODZINY OTWARCIA</h3>
+          <ul class="pl-2">
+            <li class="list-unstyled lead mt-4 footer-list-item">pon-pt: 9:00 - 18:00</li>
+            <li class="list-unstyled lead mt-3 footer-list-item">sob: 8:00 - 15:00</li>
+            <li class="list-unstyled lead mt-3 footer-list-item">niedz: zamknięte</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-3 text-center text-md-left">
+          <h3 class="footer-header mt-5">DANE KONTAKTOWE</h3>
+          <ul class="pl-2">
+            <li class="list-unstyled lead mt-4 footer-list-item">adres: ul. Krótka 12</li>
+            <li class="list-unstyled lead mt-3 footer-list-item">telefon: 730-138-447</li>
+            <li class="list-unstyled lead mt-3 footer-list-item">e-mail: barbershot@vp.pl</li>
+          </ul>
+        </div>
+
+        <div class="col-12 mt-4 text-center">
+          <a href="https://www.facebook.com/pg/barbershotpl/about/?ref=page_internal" class="mr-5"><i
+              class="fab fa-facebook-square info-logo footer-logo"></i></a>
+          <a href="https://www.instagram.com/barber_shot_lim/" class="ml-5"><i
+              class="fab fa-instagram info-logo footer-logo"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="javascript/scrollreveal.js"></script>
+</body>
+
+</html>
