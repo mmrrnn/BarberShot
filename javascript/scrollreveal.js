@@ -24,14 +24,14 @@ $(document).ready(function () {
     sr.reveal('#double-container-first', {
         duration: 1200,
         delay: 200,
-        origin: 'left',
+        origin: 'top',
         distance: '4rem',
         viewFactor: 0.1
     });
 
     sr.reveal('#double-container-second', {
         duration: 1200,
-        origin: 'right',
+        origin: 'bottom',
         distance: '4rem',
         viewFactor: 0.1
     });
@@ -59,31 +59,11 @@ $(document).ready(function () {
         viewFactor: 0.1
     });
 
-    sr.reveal('.info', {
-        duration: 1200,
-        origin: 'left',
-        distance: '4rem',
-        viewFactor: 0.1
-    });
-
     sr.reveal('.media-icons', {
         duration: 1200,
         origin: 'right',
         distance: '4rem',
         viewFactor: 0.1
-    });
-
-    sr.reveal('.table', {
-        duration: 1200,
-        origin: 'bottom',
-        distance: '4rem',
-        viewFactor: 0.1
-    });
-
-    sr.reveal('#header-contact', {
-        duration: 1000,
-        origin: 'bottom',
-        distance: '2rem'
     });
     
     sr.reveal('#button-about', {
