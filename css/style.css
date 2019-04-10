@@ -115,7 +115,15 @@ div#license a {
     color: #fff;
 }
 
-@media (max-width: 767.98px) { 
+@media (max-width: 767.98px) {
+    .carousel-item {
+        height: 60vh;
+    }
+    
+    .main-header {
+        font-size: 3rem;
+    }
+    
     span#double-container-header {
         font-size: 3.2rem;
     }
@@ -130,10 +138,6 @@ div#license a {
 
     div.jumbotron-sm-row {
         margin-top: 5rem;
-    }
-
-    .main-header {
-        font-size: 4rem;
     }
 }
 
