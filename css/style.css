@@ -139,6 +139,10 @@ div#license a {
     div.jumbotron-sm-row {
         margin-top: 5rem;
     }
+
+    .price-header {
+        font-size: 1.4rem;
+    }
 }
 
 /* ************************************* ABOUT ************************************* */
