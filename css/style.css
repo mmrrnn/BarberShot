@@ -145,7 +145,7 @@ div#license a {
     }
 
     div#about-main-photo {
-        background-attachment: scroll;
+        background-attachment: scroll!important;
     }
 }
 
