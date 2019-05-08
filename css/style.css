@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 @import url('https://fonts.googleapis.com/css?family=Dosis');
 
-/* #212529 #3D0C11 */
-
 * {
     font-family: 'Dosis';
 }
@@ -35,8 +33,7 @@ a.navbar-brand {
 }
 
 a.nav-link {
-    font-size: 1.1rem;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.08rem;
 }
 
 /* ----- CAROUSEL ----- */
@@ -61,9 +58,9 @@ div.carousel-item p.lead {
 
 /* ----- DOUBLE CONTAINER ----- */
 
-div#double-container-first {
+/* div#double-container-first {
     border-left: 1px solid #BF8C5A;
-}
+} */
 
 p#double-container-text {
     line-height: 2rem;
@@ -113,40 +110,6 @@ div#license {
 
 div#license a {
     color: #fff;
-}
-
-@media (max-width: 767.98px) {
-    .carousel-item {
-        height: 60vh;
-    }
-    
-    .main-header {
-        font-size: 3rem;
-    }
-    
-    span#double-container-header {
-        font-size: 3.2rem;
-    }
-
-    div#double-container-first {
-        border-left: none;
-    }
-    
-    div#double-container-second {
-        margin-top: 1rem;
-    }
-
-    div.jumbotron-sm-row {
-        margin-top: 5rem;
-    }
-
-    .price-header {
-        font-size: 1.4rem;
-    }
-
-    div#about-main-photo {
-        background-attachment: scroll!important;
-    }
 }
 
 /* ************************************* ABOUT ************************************* */
@@ -215,6 +178,10 @@ div#container-contact {
     margin-top: 62px;
 }
 
+div#contactDouble {
+    height: 80vh;
+}
+
 .icon-contact {
     font-size: 2.5rem;
     color: #212529;
@@ -227,7 +194,8 @@ div#container-contact {
 }
 
 div#map {
-    height: 90vh;
+    height: 80vh;
+    padding: 0;
 }
 
 .info-logo {
@@ -241,4 +209,46 @@ div#map {
 
 #ig {
     color: #DD2a7B;
+}
+
+/* ************************************* MEDIA ************************************* */
+
+@media (max-width: 767.98px) {
+    .carousel-item {
+        height: 60vh;
+    }
+    
+    .main-header {
+        font-size: 3rem;
+    }
+    
+    span#double-container-header {
+        font-size: 3.2rem;
+    }
+
+    div#double-container-first {
+        border-left: none;
+    }
+    
+    div#double-container-second {
+        margin-top: 1rem;
+    }
+
+    div.jumbotron-sm-row {
+        margin-top: 5rem;
+    }
+
+    .price-header {
+        font-size: 1.4rem;
+    }
+
+    div#about-main-photo {
+        background-attachment: scroll!important;
+    }
+}
+
+@media (max-width: 992px) {
+    footer#clearFrame {
+        margin-top: 80vh;
+    }
 }
