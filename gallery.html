@@ -33,7 +33,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Barber Shot</a>
+            <a class="navbar-brand" href="index.html"><img src="./img/logo-proste.png" id="nav-logo" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -51,8 +51,17 @@
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
-                    <li class="nav-item mr-3">
-                        <a class="nav-link" href="#">REJESTRACJA</a>
+                    <li class="nav-item dropdown mr-3 dropdown-dark" id="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            REJESTRACJA
+                        </a>
+                        <div class="dropdown-menu dropdown-light" id="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Limanowa</a>
+                            <a class="dropdown-item"
+                                href="https://www.moment.pl/barber-shot-nowy-sacz?fbclid=IwAR1Y9YD8JUricno6_jbELzTXnJBEDlC01dG5tlSuJUByylz5R6s1aMbY1Y0">Nowy
+                                Sącz</a>
+                        </div>
                     </li>
                     <li class="nav-item mr-3">
                         <a class="nav-link" href="contact.html">KONTAKT</a>
@@ -216,14 +225,15 @@
                     <h3 class="footer-header mt-5">GODZINY OTWARCIA</h3>
                     <ul class="pl-2">
                         <li class="list-unstyled lead mt-4 footer-list-item">pon-pt: 9:00 - 18:00</li>
-                        <li class="list-unstyled lead mt-3 footer-list-item">sob: 8:00 - 15:00</li>
+                        <li class="list-unstyled lead mt-3 footer-list-item">sob: 8:00 - 14:00</li>
                         <li class="list-unstyled lead mt-3 footer-list-item">niedz: zamknięte</li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-3 text-center text-md-left">
                     <h3 class="footer-header mt-5">DANE KONTAKTOWE</h3>
                     <ul class="pl-2">
-                        <li class="list-unstyled lead mt-4 footer-list-item">adres: ul. Krótka 12</li>
+                        <li class="list-unstyled lead mt-4 footer-list-item">Limanowa: Krótka 12</li>
+                        <li class="list-unstyled lead mt-3 footer-list-item">Nowy Sącz: Jagiellońska 29/3</li>
                         <li class="list-unstyled lead mt-3 footer-list-item">telefon: 730-138-447</li>
                         <li class="list-unstyled lead mt-3 footer-list-item">e-mail: barbershot@vp.pl</li>
                     </ul>

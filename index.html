@@ -14,8 +14,8 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
   <title>Barber Shot - Salon Fryzjerski Mateusz Szpilka</title>
-  <meta name="Descripton" content="Męski salon fryzjerski, oraz akcesoria do włosów i zarostu w Limanowej, ul. Krótka 12S">
-  <meta name="Keywords" content="fryzjer, fryzjer Limanowa, barber, barbershot, barber Limanowa">
+  <meta name="descripton" content="Męski salon fryzjerski, oraz akcesoria do włosów i zarostu w Limanowej oraz w Nowym Sączu">
+  <meta name="keywords" content="barber, barbershot, fryzjer, barber shot, salon fryzjerski, mateusz szpilka">
 
   <!-- CSS & JS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -34,7 +34,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
     <div class="container">
-      <a class="navbar-brand" href="#">Barber Shot</a>
+      <a class="navbar-brand" href="#"><img src="./img/logo-proste.png" id="nav-logo"/></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -52,8 +52,14 @@
           <li class="nav-item mr-3">
             <a class="nav-link" href="gallery.html">GALERIA</a>
           </li>
-          <li class="nav-item mr-3">
-            <a class="nav-link" href="#">REJESTRACJA</a>
+          <li class="nav-item dropdown mr-3 dropdown-dark" id="dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              REJESTRACJA
+            </a>
+            <div class="dropdown-menu dropdown-dark" id ="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Limanowa</a>
+              <a class="dropdown-item" href="https://www.moment.pl/barber-shot-nowy-sacz?fbclid=IwAR1Y9YD8JUricno6_jbELzTXnJBEDlC01dG5tlSuJUByylz5R6s1aMbY1Y0">Nowy Sącz</a>
+            </div>
           </li>
           <li class="nav-item mr-3">
             <a class="nav-link" href="contact.html">KONTAKT</a>
@@ -164,6 +170,13 @@
           <span class="h3 d-block mt-4 price-header">AKCESORIA DO PIELĘGNACJI</span>
         </div>
       </div>
+      <div class="row justify-content-center text-center margin-top">
+        <div class="col-12 col-md-6 col-lg-5" id="city-container">
+          <span class="city-name mr-2 city-active">Limanowa</span>
+          <i class="fas fa-exchange-alt" style="font-size: 1.6rem; color: #BF8C5A;"></i>
+          <span class="city-name ml-2">Nowy Sącz</span>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -188,14 +201,15 @@
           <h3 class="footer-header mt-5">GODZINY OTWARCIA</h3>
           <ul class="pl-2">
             <li class="list-unstyled lead mt-4 footer-list-item">pon-pt: 9:00 - 18:00</li>
-            <li class="list-unstyled lead mt-3 footer-list-item">sob: 8:00 - 15:00</li>
+            <li class="list-unstyled lead mt-3 footer-list-item">sob: 8:00 - 14:00</li>
             <li class="list-unstyled lead mt-3 footer-list-item">niedz: zamknięte</li>
           </ul>
         </div>
         <div class="col-12 col-md-3 text-center text-md-left">
           <h3 class="footer-header mt-5">DANE KONTAKTOWE</h3>
           <ul class="pl-2">
-            <li class="list-unstyled lead mt-4 footer-list-item">adres: ul. Krótka 12</li>
+            <li class="list-unstyled lead mt-4 footer-list-item">Limanowa: Krótka 12</li>
+            <li class="list-unstyled lead mt-3 footer-list-item">Nowy Sącz: Jagiellońska 29/3</li>
             <li class="list-unstyled lead mt-3 footer-list-item">telefon: 730-138-447</li>
             <li class="list-unstyled lead mt-3 footer-list-item">e-mail: barbershot@vp.pl</li>
           </ul>
@@ -221,6 +235,7 @@
   <!-- JavaScript -->
   <script src="javascript/scrollreveal.js"></script>
   <script src="javascript/navbar.js"></script>
+  <script src="javascript/city.js"></script>
 </body>
 
 </html>

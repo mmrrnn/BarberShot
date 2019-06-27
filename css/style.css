@@ -16,6 +16,16 @@
 
 /* ----- NAVBAR ----- */
 
+nav {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}
+
+div.navbar-collapse {
+    height: 100%;
+    padding: 15px 0;
+}
+
 nav.navbar {
     transition: 0.5s;
     background-color: rgb(0, 0, 0, 0.4);
@@ -26,14 +36,54 @@ nav.navbar-light {
     box-shadow: 1px 1px 2px #ccc;
 }
 
-a.navbar-brand {
-    font-size: 1.5rem;
-    letter-spacing: 0.1rem;
-    font-family: 'Poppins';
+a#navbar-brand {
+    display: inline-block;
+    position: absolute;
+    top: 0
+}
+
+img#nav-logo {
+    height: 60px;
 }
 
 a.nav-link {
     letter-spacing: 0.08rem;
+}
+
+div.dropdown-menu {
+    top: 53px;
+    border: none;
+    border-radius: 0;
+    background-color: #fdfdfd;
+}
+
+a.dropdown-item {
+    padding: 1rem;
+    padding-left: 2rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.05rem;
+}
+
+a.dropdown-item:active {
+    background-color: #fdfdfd;
+}
+
+div.dropdown-dark {
+    background-color: rgb(0, 0, 0, 0.7)!important;
+}
+
+div.dropdown-dark a {
+    color: rgba(255, 255, 255, 0.8)!important;
+}
+
+div.dropdown-dark a:hover {
+    color: rgba(0, 0, 0, 0.6)!important;
+}
+
+div.dropdown-light {
+    background-color: #fdfdfd;
+    border-bottom: 1px #ccc solid;
+    border-top: 1px #ccc solid;
 }
 
 /* ----- CAROUSEL ----- */
@@ -70,6 +120,10 @@ p#double-container-text {
 
 /* ----- JUMBOTRON ----- */
 
+.carousel-jumbotron {
+    height: 120vh;
+}
+
 div.jumbotron {
     margin-bottom: 0;
 }
@@ -78,8 +132,26 @@ img.barber-icon {
     height: 5rem;
 }
 
+span.price-header {
+    color: rgb(33, 37, 41);
+}
+
 span.price-info {
     color: #BF8C5A;
+}
+
+div#city-container:hover {
+    cursor: pointer;
+}
+
+span.city-name {
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.08rem;
+}
+
+span.city-active {
+    color: rgb(33, 37, 41);
 }
 
 /* ----- FOOTER ----- */
@@ -238,8 +310,12 @@ div#map {
         margin-top: 5rem;
     }
 
-    .price-header {
-        font-size: 1.4rem;
+    img.barber-icon {
+        height: 4rem;
+    }
+
+    span.price-header {
+        font-size: 1.35rem;
     }
 
     div#about-main-photo {

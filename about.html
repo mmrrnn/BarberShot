@@ -24,8 +24,8 @@
   <script src="jquery/jquery-3.3.1.slim.js"></script>
   <script src="bootstrap-4.3.1/js/bootstrap.min.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
-      integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
-      crossorigin="anonymous"></script>
+    integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+    crossorigin="anonymous"></script>
   <script src="https://unpkg.com/scrollreveal"></script>
 
   <title>Barber Shot - O nas</title>
@@ -34,7 +34,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Barber Shot</a>
+      <a class="navbar-brand" href="index.html"><img src="./img/logo-proste.png" id="nav-logo" /></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -52,8 +52,17 @@
           <li class="nav-item">
             <a class="nav-link mr-3" href="gallery.html">GALERIA</a>
           </li>
-          <li class="nav-item mr-3">
-            <a class="nav-link" href="#">REJESTRACJA</a>
+          <li class="nav-item dropdown mr-3 dropdown-dark" id="dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              REJESTRACJA
+            </a>
+            <div class="dropdown-menu dropdown-light" id="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Limanowa</a>
+              <a class="dropdown-item"
+                href="https://www.moment.pl/barber-shot-nowy-sacz?fbclid=IwAR1Y9YD8JUricno6_jbELzTXnJBEDlC01dG5tlSuJUByylz5R6s1aMbY1Y0">Nowy
+                Sącz</a>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link mr-3" href="contact.html">KONTAKT</a>
@@ -70,7 +79,10 @@
         <h1 class="display-4 text-center mt-5 main-header">KIM JESTEŚMY?</h1>
       </div>
       <div class="col-12 lead mt-5 about-article">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque in quam accusamus nesciunt quis consequuntur unde recusandae eos hic cum delectus architecto, odio minima ea sapiente soluta harum voluptates est laboriosam maxime pariatur quod eligendi? Accusamus culpa esse voluptate minima quae, eius amet perspiciatis, laborum harum error consequuntur veritatis temporibus.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque in quam accusamus nesciunt quis consequuntur unde
+        recusandae eos hic cum delectus architecto, odio minima ea sapiente soluta harum voluptates est laboriosam
+        maxime pariatur quod eligendi? Accusamus culpa esse voluptate minima quae, eius amet perspiciatis, laborum harum
+        error consequuntur veritatis temporibus.
       </div>
       <div class="col-12 d-flex justify-content-center mt-5">
         <a class="d-inline-block" id="button-about" href="gallery.html">ZOBACZ GALERIĘ</a>
@@ -174,14 +186,15 @@
           <h3 class="footer-header mt-5">GODZINY OTWARCIA</h3>
           <ul class="pl-2">
             <li class="list-unstyled lead mt-4 footer-list-item">pon-pt: 9:00 - 18:00</li>
-            <li class="list-unstyled lead mt-3 footer-list-item">sob: 8:00 - 15:00</li>
+            <li class="list-unstyled lead mt-3 footer-list-item">sob: 8:00 - 14:00</li>
             <li class="list-unstyled lead mt-3 footer-list-item">niedz: zamknięte</li>
           </ul>
         </div>
         <div class="col-12 col-md-3 text-center text-md-left">
           <h3 class="footer-header mt-5">DANE KONTAKTOWE</h3>
           <ul class="pl-2">
-            <li class="list-unstyled lead mt-4 footer-list-item">adres: ul. Krótka 12</li>
+            <li class="list-unstyled lead mt-4 footer-list-item">Limanowa: Krótka 12</li>
+            <li class="list-unstyled lead mt-3 footer-list-item">Nowy Sącz: Jagiellońska 29/3</li>
             <li class="list-unstyled lead mt-3 footer-list-item">telefon: 730-138-447</li>
             <li class="list-unstyled lead mt-3 footer-list-item">e-mail: barbershot@vp.pl</li>
           </ul>
