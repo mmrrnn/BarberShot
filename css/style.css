@@ -214,7 +214,7 @@ div#about-main-photo {
     height: 90vh;
     background-image: url('../img/about/1.jpg');
     background-attachment: fixed;
-    background-position: right;
+    background-position: left;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -252,6 +252,10 @@ div#container-contact {
 
 div#contactDouble {
     height: 80vh;
+}
+
+div#info-contact {
+    margin: 0 auto;
 }
 
 .icon-contact {
@@ -320,11 +324,15 @@ div#map {
 
     div#about-main-photo {
         background-attachment: scroll!important;
-    }
+    } 
 }
 
 @media (max-width: 992px) {
     footer#clearFrame {
         margin-top: 100vh;
+    }
+
+    li.nav-item {
+        margin-top: 0.5rem;
     }
 }
