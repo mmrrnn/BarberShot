@@ -254,10 +254,6 @@ div#contactDouble {
     height: 80vh;
 }
 
-div#info-contact {
-    margin: 0 auto;
-}
-
 .icon-contact {
     font-size: 2.5rem;
     color: #212529;
@@ -334,5 +330,9 @@ div#map {
 
     li.nav-item {
         margin-top: 0.5rem;
+    }
+
+    div#info-contact {
+        margin: 0 auto;
     }
 }
