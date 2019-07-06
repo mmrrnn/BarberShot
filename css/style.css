@@ -265,6 +265,10 @@ div#contactDouble {
     letter-spacing: 0.08rem;
 }
 
+#contact-div {
+    padding-left: 2rem;
+}
+
 div#map {
     height: 80vh;
     padding: 0;
@@ -334,5 +338,9 @@ div#map {
 
     div#info-contact {
         margin: 0 auto;
+    }
+
+    #contact-div {
+        padding-left: 1rem; 
     }
 }
