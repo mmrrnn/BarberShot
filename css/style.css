@@ -329,7 +329,7 @@ div#map {
 
 @media (max-width: 992px) {
     footer#clearFrame {
-        margin-top: 140vh;
+        margin-top: 160vh;
     }
 
     li.nav-item {
