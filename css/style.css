@@ -324,12 +324,13 @@ div#map {
 
     div#about-main-photo {
         background-attachment: scroll!important;
-    } 
+    }
+    
 }
 
 @media (max-width: 992px) {
     footer#clearFrame {
-        margin-top: 100vh;
+        margin-top: 85vh;
     }
 
     li.nav-item {
