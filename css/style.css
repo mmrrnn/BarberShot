@@ -88,7 +88,7 @@ div.dropdown-light {
 
 /* ----- CAROUSEL ----- */
 
-div.carousel-item h2.display-4 {
+/* div.carousel-item h2.display-4 {
     letter-spacing: 0.1rem;
 }
 
@@ -104,6 +104,51 @@ div.carousel-item p.lead {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+} */
+
+/* VIDEO */
+header#header-video {
+    position: relative;
+    top: 70px;
+    background-color: black;
+    height: calc(100vh - 70px);
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+  
+header#header-video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background-position: center;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+  
+@media (pointer: coarse) and (hover: none) {
+    header {
+        height: 100vh;
+        background-image: url('../img/home/1.jpg');
+        background-attachment: fixed;
+        background-position: left;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    header video {
+      display: none;
+    }
 }
 
 /* ----- DOUBLE CONTAINER ----- */
