@@ -134,7 +134,7 @@ header#header-video video {
 }
   
 @media (pointer: coarse) and (hover: none) {
-    header {
+    /* header {
         height: 100vh;
         background-image: url('../img/home/1.jpg');
         background-attachment: fixed;
@@ -144,7 +144,7 @@ header#header-video video {
         -o-background-size: cover;
         background-size: cover;
         background-repeat: no-repeat;
-    }
+    } */
 
     header video {
       display: none;
