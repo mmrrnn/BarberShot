@@ -37,12 +37,4 @@ cityContainer.addEventListener('click', () => {
         priceHeaderTab[3].innerText = 'COMBO (STRZYŻENIE WŁOSÓW I BRODY)';
         priceInfoTab[3].innerText = '55zł';
     }
-
-    // if(priceInfoTab[0].innerText == '25,-'){
-    //     priceInfoTab[0].innerText = priceInfoTab[2].innerText = priceInfoTab[3].innerText = '35,-';
-    //     priceInfoTab[1].innerText = '35,-/45,-';
-    // } else {
-    //     priceInfoTab[0].innerText = priceInfoTab[2].innerText = priceInfoTab[3].innerText = '25,-';
-    //     priceInfoTab[1].innerText = '25,-/35,-';
-    // }
 })
