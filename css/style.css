@@ -132,24 +132,6 @@ header#header-video video {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
-  
-@media (pointer: coarse) and (hover: none) {
-    /* header {
-        height: 100vh;
-        background-image: url('../img/home/1.jpg');
-        background-attachment: fixed;
-        background-position: left;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-repeat: no-repeat;
-    } */
-
-    header video {
-      display: none;
-    }
-}
 
 /* ----- DOUBLE CONTAINER ----- */
 
