@@ -335,9 +335,9 @@ div#map {
 /* ************************************* MEDIA ************************************* */
 
 @media (max-width: 767.98px) {
-    .carousel-item {
+    /* .carousel-item {
         height: 60vh;
-    }
+    } */
     
     .main-header {
         font-size: 3rem;
@@ -367,9 +367,9 @@ div#map {
         font-size: 1.35rem;
     }
 
-    div#about-main-photo {
+    /* div#about-main-photo {
         background-attachment: scroll!important;
-    }
+    } */
 
     footer#clearFrame {
         padding-top: 20vh;
